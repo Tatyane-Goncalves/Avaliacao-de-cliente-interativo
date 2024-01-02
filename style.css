@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background: linear-gradient(315deg, #ffffff,  #fff5f5 74%);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper .avaliation{
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .avaliation .star{
+    width: 60px;
+    width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	line-height: 60px;
+	text-align: center;
+	transition: all 0.3s ease-out;
+}
+
+.wrapper .avaliation .star i {
+	font-size: 25px;
+	line-height: 60px;
+	transition: all 0.3s ease-out;
+}
+
+.wrapper .avaliation .star:hover i{
+    color: yellow;
+}
